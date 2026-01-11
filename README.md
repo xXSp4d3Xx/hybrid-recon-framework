@@ -73,6 +73,7 @@ recon_YYYYMMDD_HHMMSS/
 ##  Requirements
 
 Install the following tools:
+sudo apt install arp-scan p0f nmap enum4linux smbclient snmp snmp-mibs-downloader
 
 ---
 
