@@ -1,1 +1,9 @@
-﻿
+﻿Add GitHub Actions workflow to run ShellCheck on shell scripts.
+
+- Runs on push to main and branches matching cleanup/**
+- Installs shellcheck and runs it against tracked .sh files
+- Helps catch common shell issues early in CI
+
+Notes:
+- Workflow file: .github/workflows/shellcheck.yml
+- Run shellcheck locally with: shellcheck scripts/*.sh
